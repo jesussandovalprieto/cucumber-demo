@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = ".", glue = "junitcucumber", plugin = { "json:target/test-cucumber.json" })
+@CucumberOptions(features = ".", glue = "junitcucumber", plugin = { "json:target/cucumber.json" })
 public class UserTest {
 
 }
